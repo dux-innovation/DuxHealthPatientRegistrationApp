@@ -12,6 +12,12 @@
 		<!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
 
 		<script>
+
+				
+				sap.ui.localResources("model");
+				var model = sap.ui.model.json.JSONModel("model/patients.json");
+				sap.ui.getCore().setModel(model);
+				
 				sap.ui.localResources("duxhealthpatientregistrationapp");
 				var app = new sap.m.App({initialPage:"idmain1"});
 				var page = sap.ui.view({id:"idmain1", viewName:"duxhealthpatientregistrationapp.main", type:sap.ui.core.mvc.ViewType.JS});

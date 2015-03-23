@@ -1,0 +1,33 @@
+{
+	"patients": 
+	[
+		{
+			"prontuario": "123",
+			"name": "Fulano",
+			"idade": 25,
+			"sexo": "M"
+		},
+
+		{
+			"prontuario": "345",
+			"name": "Beltrano",
+			"idade": 30,
+			"sexo": "M"
+		},
+
+		{
+			"prontuario": "456",
+			"name": "Fulana",
+			"idade": 18,
+			"sexo": "F"
+		},
+
+		{
+			"prontuario": "678",
+			"name": "Beltrana",
+			"idade": 40,
+			"sexo": "F"
+		}
+
+	]
+}
